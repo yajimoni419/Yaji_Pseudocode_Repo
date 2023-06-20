@@ -1,0 +1,11 @@
+INPUT BIggestSoFar
+Counter - 1
+REPEAT
+INPUT NextNumber
+Counter - Counter + 1
+If NextNUmber > BiggestSoFar
+THEN
+BiggestSoFar - NextNumber
+ENDIF
+UNTIL Counter = 10
+Output BiggestSoFar
